@@ -48,7 +48,7 @@ const result3b = checkType(42)
 
 
 
-// Problem 4:
+// Problem 4: Write a generic function getProperty that takes an object and a key, then returns the value of that key. Use constraints to ensure the key exists on the object.
 
 type User = {
     id: number,
@@ -87,7 +87,7 @@ const result5 = toggleReadStatus(myBook)
 
 
 
-// Problem 6:
+// Problem 6: Create a class Person with a name and age. Then, create a subclass Student that adds a grade property. Include a method getDetails in the Student class that returns a string with the student's name, age, and grade.
 
 class Person {
     name : string;
@@ -118,11 +118,15 @@ const student1 = new Student("Alice", 20, "A")
 
 
 
-// Problem 7:
+// Problem 7: Create a function getIntersection that takes two arrays of numbers and returns a new array containing only the elements that are present in both arrays.
 
 const getIntersection = (arr1: number[], arr2: number[]): number[] => {
     return arr1.filter(num => arr2.includes(num))
 }
 
 const result7 = getIntersection([1, 2, 3, 4], [3, 4, 5, 6])
-console.log(result7)
+// console.log(result7)
+
+
+
+
