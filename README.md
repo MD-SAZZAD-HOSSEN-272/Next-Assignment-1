@@ -1,5 +1,3 @@
-# Assignment Information
-
 ## Student Information
 
 - **Name:** Md. Sazzad Hossen
